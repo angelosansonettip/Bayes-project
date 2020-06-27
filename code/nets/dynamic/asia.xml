@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+
+<!--
+  Bayesian network in XMLBIF v0.3 (BayesNet Interchange Format)
+  Produced by SamIam http://reasoning.cs.ucla.edu/samiam
+  Output created 4-giu-2020 0.36.26
+-->
+
+<BIF VERSION="0.3">
+<NETWORK>
+  <NAME>bayesiannetwork</NAME>
+
+  <VARIABLE TYPE="nature">
+    <NAME>lung</NAME>
+    <OUTCOME>yes</OUTCOME>
+    <OUTCOME>no</OUTCOME>
+    <PROPERTY>position = (351, -239)</PROPERTY>
+  </VARIABLE>
+
+  <VARIABLE TYPE="nature">
+    <NAME>asia</NAME>
+    <OUTCOME>yes</OUTCOME>
+    <OUTCOME>no</OUTCOME>
+    <PROPERTY>position = (116, -136)</PROPERTY>
+  </VARIABLE>
+
+  <VARIABLE TYPE="nature">
+    <NAME>tub</NAME>
+    <OUTCOME>yes</OUTCOME>
+    <OUTCOME>no</OUTCOME>
+    <PROPERTY>position = (114, -260)</PROPERTY>
+  </VARIABLE>
+
+  <VARIABLE TYPE="nature">
+    <NAME>bronc</NAME>
+    <OUTCOME>yes</OUTCOME>
+    <OUTCOME>no</OUTCOME>
+    <PROPERTY>position = (526, -311)</PROPERTY>
+  </VARIABLE>
+
+  <VARIABLE TYPE="nature">
+    <NAME>xray_E</NAME>
+    <OUTCOME>yes</OUTCOME>
+    <OUTCOME>no</OUTCOME>
+    <PROPERTY>position = (205, -452)</PROPERTY>
+  </VARIABLE>
+
+  <VARIABLE TYPE="nature">
+    <NAME>smoke_0</NAME>
+    <OUTCOME>yes</OUTCOME>
+    <OUTCOME>no</OUTCOME>
+    <PROPERTY>position = (406, -32)</PROPERTY>
+  </VARIABLE>
+
+  <VARIABLE TYPE="nature">
+    <NAME>smoke</NAME>
+    <OUTCOME>yes</OUTCOME>
+    <OUTCOME>no</OUTCOME>
+    <PROPERTY>position = (506, -149)</PROPERTY>
+  </VARIABLE>
+
+  <VARIABLE TYPE="nature">
+    <NAME>asia_0</NAME>
+    <OUTCOME>yes</OUTCOME>
+    <OUTCOME>no</OUTCOME>
+    <PROPERTY>position = (204, -30)</PROPERTY>
+  </VARIABLE>
+
+  <VARIABLE TYPE="nature">
+    <NAME>either</NAME>
+    <OUTCOME>yes</OUTCOME>
+    <OUTCOME>no</OUTCOME>
+    <PROPERTY>position = (269, -351)</PROPERTY>
+  </VARIABLE>
+
+  <VARIABLE TYPE="nature">
+    <NAME>dysp_E</NAME>
+    <OUTCOME>yes</OUTCOME>
+    <OUTCOME>no</OUTCOME>
+    <PROPERTY>position = (525, -447)</PROPERTY>
+  </VARIABLE>
+
+  <DEFINITION>
+    <FOR>lung</FOR>
+    <GIVEN>smoke</GIVEN>
+    <TABLE>0.1 0.9 0.01 0.99 </TABLE>
+  </DEFINITION>
+
+  <DEFINITION>
+    <FOR>asia</FOR>
+    <GIVEN>asia_0</GIVEN>
+    <GIVEN>smoke_0</GIVEN>
+    <TABLE>0.7 0.3 0.4 0.6 0.45 0.55 0.3 0.7 </TABLE>
+  </DEFINITION>
+
+  <DEFINITION>
+    <FOR>tub</FOR>
+    <GIVEN>asia</GIVEN>
+    <TABLE>0.05 0.95 0.01 0.99 </TABLE>
+  </DEFINITION>
+
+  <DEFINITION>
+    <FOR>bronc</FOR>
+    <GIVEN>smoke</GIVEN>
+    <TABLE>0.6 0.4 0.3 0.7 </TABLE>
+  </DEFINITION>
+
+  <DEFINITION>
+    <FOR>xray_E</FOR>
+    <GIVEN>either</GIVEN>
+    <TABLE>0.98 0.02 0.05 0.95 </TABLE>
+  </DEFINITION>
+
+  <DEFINITION>
+    <FOR>smoke_0</FOR>
+    <TABLE>0.5 0.5 </TABLE>
+  </DEFINITION>
+
+  <DEFINITION>
+    <FOR>smoke</FOR>
+    <GIVEN>smoke_0</GIVEN>
+    <TABLE>0.5 0.5 0.5 0.5 </TABLE>
+  </DEFINITION>
+
+  <DEFINITION>
+    <FOR>asia_0</FOR>
+    <TABLE>0.01 0.99 </TABLE>
+  </DEFINITION>
+
+  <DEFINITION>
+    <FOR>either</FOR>
+    <GIVEN>lung</GIVEN>
+    <GIVEN>tub</GIVEN>
+    <TABLE>1.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 </TABLE>
+  </DEFINITION>
+
+  <DEFINITION>
+    <FOR>dysp_E</FOR>
+    <GIVEN>bronc</GIVEN>
+    <GIVEN>either</GIVEN>
+    <TABLE>0.9 0.1 0.8 0.2 0.7 0.3 0.1 0.9 </TABLE>
+  </DEFINITION>
+
+</NETWORK>
+</BIF>

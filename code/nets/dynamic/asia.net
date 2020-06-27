@@ -1,0 +1,151 @@
+net
+{
+	propagationenginegenerator1791944048146838126L = "edu.ucla.belief.approx.BeliefPropagationSettings@1563632c";
+	recoveryenginegenerator6944530267470113528l = "edu.ucla.util.SettingsImpl@64756347";
+	node_size = (130.0 55.0);
+}
+
+node xray_E
+{
+	states = ("yes" "no" );
+	position = (205 -452);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node asia
+{
+	states = ("yes" "no" );
+	position = (116 -136);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node tub
+{
+	states = ("yes" "no" );
+	position = (114 -260);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node dysp_E
+{
+	states = ("yes" "no" );
+	position = (525 -447);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node asia_0
+{
+	states = ("yes" "no" );
+	position = (204 -30);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node either
+{
+	states = ("yes" "no" );
+	position = (269 -351);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node bronc
+{
+	states = ("yes" "no" );
+	position = (526 -311);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node smoke
+{
+	states = ("yes" "no" );
+	position = (506 -149);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node smoke_0
+{
+	states = ("yes" "no" );
+	position = (406 -32);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node lung
+{
+	states = ("yes" "no" );
+	position = (351 -239);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+potential ( xray_E | either )
+{
+	data = ((	0.98	0.02	)
+		(	0.05	0.95	));
+}
+potential ( asia | asia_0 smoke_0 )
+{
+	data = (((	0.7	0.3	)
+		(	0.4	0.6	))
+		((	0.45	0.55	)
+		(	0.3	0.7	)));
+}
+potential ( tub | asia )
+{
+	data = ((	0.05	0.95	)
+		(	0.01	0.99	));
+}
+potential ( dysp_E | bronc either )
+{
+	data = (((	0.9	0.1	)
+		(	0.8	0.2	))
+		((	0.7	0.3	)
+		(	0.1	0.9	)));
+}
+potential ( asia_0 | )
+{
+	data = (	0.01	0.99	);
+}
+potential ( either | lung tub )
+{
+	data = (((	1.0	0.0	)
+		(	1.0	0.0	))
+		((	1.0	0.0	)
+		(	0.0	1.0	)));
+}
+potential ( bronc | smoke )
+{
+	data = ((	0.6	0.4	)
+		(	0.3	0.7	));
+}
+potential ( smoke | smoke_0 )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( smoke_0 | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( lung | smoke )
+{
+	data = ((	0.1	0.9	)
+		(	0.01	0.99	));
+}

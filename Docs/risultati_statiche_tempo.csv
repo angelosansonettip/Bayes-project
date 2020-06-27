@@ -1,0 +1,52 @@
+;ReverseEliminationAsk(pruned);MinDegreeEliminationAsk(pruned);MinFillEliminationAsk(pruned);ReverseEliminationAsk;MinDegreeEliminationAsk;MinFillEliminationAsk;;Differenza ReverseEliminationAsk ;Differenza MinDegreeEliminationAsk;Differenza MinFillEliminationAsk
+Rete alarm.xml con nodi 37 e con fattore massimo = 5 +FirstQuery;296;189;23;50;44;28;;-246;-145;5
+Rete alarm.xml con nodi 37 e con fattore massimo = 5 +LastQuery;282;129;119;185;89;74;;-97;-40;-45
+Rete alarm.xml con nodi 37 e con fattore massimo = 5 +MediumQuery;355;483;340;331;326;367;;-24;-157;27
+;;;;;;;;;;
+Rete asia.xml con nodi 8 e con fattore massimo = 3 +FirstQuery;0;1;2;1;0;1;;1;-1;-1
+Rete asia.xml con nodi 8 e con fattore massimo = 3 +LastQuery;0;1;0;0;0;1;;0;-1;1
+Rete asia.xml con nodi 8 e con fattore massimo = 3 +MediumQuery;0;1;2;1;0;0;;1;-1;-2
+;;;;;;;;;;
+Rete cancer.xml con nodi 5 e con fattore massimo = 3 +FirstQuery;1;1;0;0;1;0;;-1;0;0
+Rete cancer.xml con nodi 5 e con fattore massimo = 3 +LastQuery;0;1;1;1;0;1;;1;-1;0
+Rete cancer.xml con nodi 5 e con fattore massimo = 3 +MediumQuery;1;0;0;0;0;0;;-1;0;0
+;;;;;;;;;;
+Rete child.xml con nodi 20 e con fattore massimo = 3 +FirstQuery;8;4;23;10;8;24;;2;4;1
+Rete child.xml con nodi 20 e con fattore massimo = 3 +LastQuery;5;4;8;1;2;6;;-4;-2;-2
+Rete child.xml con nodi 20 e con fattore massimo = 3 +MediumQuery;3;2;2;1;3;3;;-2;1;1
+;;;;;;;;;;
+Rete earthquake.xml con nodi 5 e con fattore massimo = 3 +FirstQuery;0;1;0;1;0;1;;1;-1;1
+Rete earthquake.xml con nodi 5 e con fattore massimo = 3 +LastQuery;0;1;1;0;0;0;;0;-1;-1
+Rete earthquake.xml con nodi 5 e con fattore massimo = 3 +MediumQuery;0;0;0;0;0;0;;0;0;0
+;;;;;;;;;;
+Rete generated.xml con nodi 20 e con fattore massimo = 5 +FirstQuery;2;1;2;1;2;1;;-1;1;-1
+Rete generated.xml con nodi 20 e con fattore massimo = 5 +LastQuery;2;1;1;6;1;6;;4;0;5
+Rete generated.xml con nodi 20 e con fattore massimo = 5 +MediumQuery;1;2;1;1;1;2;;0;-1;1
+;;;;;;;;;;
+Rete hepar2.xml con nodi 70 e con fattore massimo = 7 +FirstQuery;907;928;836;151.477;1.519;1.958;;150.570;591;1.122
+Rete hepar2.xml con nodi 70 e con fattore massimo = 7 +LastQuery;1.761;1.247;1.512;379.446;2.877;3.736;;377.685;1.630;2.224
+Rete hepar2.xml con nodi 70 e con fattore massimo = 7 +MediumQuery;1.114.584;11.494;13.521;665.346;71.719;51.979;;-449.238;60.225;38.458
+;;;;;;;;;;
+Rete insurance.xml con nodi 27 e con fattore massimo = 4 +FirstQuery;87;103;78;58;154;167;;-29;51;89
+Rete insurance.xml con nodi 27 e con fattore massimo = 4 +LastQuery;52;15;15;43;64;93;;-9;49;78
+Rete insurance.xml con nodi 27 e con fattore massimo = 4 +MediumQuery;100;58;55;114;225;288;;14;167;233
+;;;;;;;;;;
+Rete mildew.xml con nodi 35 e con fattore massimo = 4 +FirstQuery;16;3;5;17;5;8;;1;2;3
+Rete mildew.xml con nodi 35 e con fattore massimo = 4 +LastQuery;5;3;2;5;2;2;;0;-1;0
+Rete mildew.xml con nodi 35 e con fattore massimo = 4 +MediumQuery;2;3;3;3;3;6;;1;0;3
+;;;;;;;;;;
+Rete sachs.xml con nodi 13 e con fattore massimo = 6 +FirstQuery;0;0;2;0;1;1;;0;1;-1
+Rete sachs.xml con nodi 13 e con fattore massimo = 6 +LastQuery;1;2;2;1;2;3;;0;0;1
+Rete sachs.xml con nodi 13 e con fattore massimo = 6 +MediumQuery;6;6;11;5;7;11;;-1;1;0
+;;;;;;;;;;
+Rete survey.xml con nodi 6 e con fattore massimo = 3 +FirstQuery;1;1;0;0;1;0;;-1;0;0
+Rete survey.xml con nodi 6 e con fattore massimo = 3 +LastQuery;0;0;1;0;1;0;;0;1;-1
+Rete survey.xml con nodi 6 e con fattore massimo = 3 +MediumQuery;0;0;0;0;0;0;;0;0;0
+;;;;;;;;;;
+Rete water.xml con nodi 32 e con fattore massimo = 7 +FirstQuery;491;69;66;488;116;297;;-3;47;231
+Rete water.xml con nodi 32 e con fattore massimo = 7 +LastQuery;1.388;34;53;1.566;77;81;;178;43;28
+Rete water.xml con nodi 32 e con fattore massimo = 7 +MediumQuery;194;24;32;108;63;99;;-86;39;67
+;;;;;;;;;;
+Rete WIN95PTS.xml con nodi 76 e con fattore massimo = 6 +FirstQuery;128.209;3.543;3.232;56.924;4.272;5.585;;-71.285;729;2.353
+Rete WIN95PTS.xml con nodi 76 e con fattore massimo = 6 +LastQuery;129.030;3.436;10.122;291.479;3.196;3.011;;162.449;-240;-7.111
+Rete WIN95PTS.xml con nodi 76 e con fattore massimo = 6 +MediumQuery;347.032;6.773;8.483;431.070;5.672;10.187;;84.038;-1.101;1.704

@@ -1,0 +1,847 @@
+net
+{
+	propagationenginegenerator1791944048146838126L = "edu.ucla.belief.approx.BeliefPropagationSettings@71f1f916";
+	recoveryenginegenerator6944530267470113528l = "edu.ucla.util.SettingsImpl@6b42a4d1";
+	node_size = (130.0 55.0);
+}
+
+node SAO2
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (727 -532);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node HISTORY_E
+{
+	states = ("TRUE" "FALSE" );
+	position = (-131 -714);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node HYPOVOLEMIA
+{
+	states = ("TRUE" "FALSE" );
+	position = (262 -602);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node HRBP_E
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (241 -848);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node LVFAILURE
+{
+	states = ("TRUE" "FALSE" );
+	position = (50 -588);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node HREKG_E
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (972 -858);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node PULMEMBOLUS_0
+{
+	states = ("TRUE" "FALSE" );
+	position = (672 -36);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node STROKEVOLUME
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (441 -710);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node PULMEMBOLUS
+{
+	states = ("TRUE" "FALSE" );
+	position = (754 -154);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node PAP_E
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (635 -247);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node ARTCO2
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (942 -492);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node FIO2_0
+{
+	states = ("LOW" "NORMAL" );
+	position = (489 -331);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node EXPCO2_E
+{
+	states = ("ZERO" "LOW" "NORMAL" "HIGH" );
+	position = (1002 -612);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node INTUBATION
+{
+	states = ("NORMAL" "ESOPHAGEAL" "ONESIDED" );
+	position = (895 -107);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node INSUFFANESTH
+{
+	states = ("TRUE" "FALSE" );
+	position = (803 -648);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node HRSAT_E
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (807 -858);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node PVSAT
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (807 -456);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node CO
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (449 -862);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node VENTALV
+{
+	states = ("ZERO" "LOW" "NORMAL" "HIGH" );
+	position = (990 -395);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node ERRLOWOUTPUT
+{
+	states = ("TRUE" "FALSE" );
+	position = (249 -716);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node LVEDVOLUME
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (79 -714);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node FIO2
+{
+	states = ("LOW" "NORMAL" );
+	position = (627 -383);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node CATECHOL
+{
+	states = ("NORMAL" "HIGH" );
+	position = (638 -610);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node VENTMACH
+{
+	states = ("ZERO" "LOW" "NORMAL" "HIGH" );
+	position = (1243 -96);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node HYPOVOLEMIA_0
+{
+	states = ("TRUE" "FALSE" );
+	position = (246 -414);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node SHUNT
+{
+	states = ("NORMAL" "HIGH" );
+	position = (777 -267);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node DISCONNECT_0
+{
+	states = ("TRUE" "FALSE" );
+	position = (992 -40);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node PCWP_E
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (83 -852);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node PRESS_E
+{
+	states = ("ZERO" "LOW" "NORMAL" "HIGH" );
+	position = (1179 -299);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node MINVOL_E
+{
+	states = ("ZERO" "LOW" "NORMAL" "HIGH" );
+	position = (826 -362);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node ERRCAUTER
+{
+	states = ("TRUE" "FALSE" );
+	position = (965 -752);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node VENTTUBE
+{
+	states = ("ZERO" "LOW" "NORMAL" "HIGH" );
+	position = (1193 -184);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node CVP_E
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (-77 -846);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node INSUFFANESTH_0
+{
+	states = ("TRUE" "FALSE" );
+	position = (995 -683);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node ANAPHYLAXIS_0
+{
+	states = ("TRUE" "FALSE" );
+	position = (-276 -271);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node TPR
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (-270 -510);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node LVFAILURE_0
+{
+	states = ("TRUE" "FALSE" );
+	position = (47 -242);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node MINVOLSET
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (1235 -4);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node KINKEDTUBE
+{
+	states = ("TRUE" "FALSE" );
+	position = (1035 -155);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node ANAPHYLAXIS
+{
+	states = ("TRUE" "FALSE" );
+	position = (-273 -388);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node INTUBATION_0
+{
+	states = ("NORMAL" "ESOPHAGEAL" "ONESIDED" );
+	position = (867 -10);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node MINVOLSET_0
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (1081 10);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node BP_E
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (284 -948);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node VENTLUNG
+{
+	states = ("ZERO" "LOW" "NORMAL" "HIGH" );
+	position = (1009 -284);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node DISCONNECT
+{
+	states = ("TRUE" "FALSE" );
+	position = (1113 -106);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node ERRCAUTER_0
+{
+	states = ("TRUE" "FALSE" );
+	position = (825 -722);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node HR
+{
+	states = ("LOW" "NORMAL" "HIGH" );
+	position = (575 -702);
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+potential ( SAO2 | PVSAT SHUNT )
+{
+	data = (((	0.98	0.01	0.01	)
+		(	0.98	0.01	0.01	))
+		((	0.01	0.98	0.01	)
+		(	0.98	0.01	0.01	))
+		((	0.01	0.01	0.98	)
+		(	0.69	0.3	0.01	)));
+}
+potential ( HISTORY_E | LVFAILURE )
+{
+	data = ((	0.9	0.1	)
+		(	0.01	0.99	));
+}
+potential ( HYPOVOLEMIA | HYPOVOLEMIA_0 )
+{
+	data = ((	0.67	0.33	)
+		(	0.55	0.45	));
+}
+potential ( HRBP_E | ERRLOWOUTPUT HR )
+{
+	data = (((	0.98	0.01	0.01	)
+		(	0.3	0.4	0.3	)
+		(	0.01	0.98	0.01	))
+		((	0.4	0.59	0.01	)
+		(	0.98	0.01	0.01	)
+		(	0.01	0.01	0.98	)));
+}
+potential ( LVFAILURE | LVFAILURE_0 HYPOVOLEMIA_0 )
+{
+	data = (((	0.61	0.39	)
+		(	0.3	0.7	))
+		((	0.8	0.2	)
+		(	0.30500000000000005	0.695	)));
+}
+potential ( HREKG_E | ERRCAUTER HR )
+{
+	data = (((	0.33333333333333337	0.33333333333333337	0.33333333333333337	)
+		(	0.33333333333333337	0.33333333333333337	0.33333333333333337	)
+		(	0.01	0.98	0.01	))
+		((	0.33333333333333337	0.33333333333333337	0.33333333333333337	)
+		(	0.98	0.01	0.01	)
+		(	0.01	0.01	0.98	)));
+}
+potential ( PULMEMBOLUS_0 | )
+{
+	data = (	0.01	0.99	);
+}
+potential ( STROKEVOLUME | HYPOVOLEMIA LVFAILURE )
+{
+	data = (((	0.98	0.01	0.01	)
+		(	0.5	0.49	0.01	))
+		((	0.95	0.04	0.01	)
+		(	0.05	0.9	0.05	)));
+}
+potential ( PULMEMBOLUS | PULMEMBOLUS_0 )
+{
+	data = ((	0.9	0.1	)
+		(	0.3	0.7	));
+}
+potential ( PAP_E | PULMEMBOLUS )
+{
+	data = ((	0.01	0.19	0.8	)
+		(	0.05	0.9	0.05	));
+}
+potential ( ARTCO2 | VENTALV )
+{
+	data = ((	0.01	0.01	0.98	)
+		(	0.01	0.01	0.98	)
+		(	0.04	0.92	0.04	)
+		(	0.9	0.09	0.01	));
+}
+potential ( FIO2_0 | )
+{
+	data = (	0.05	0.95	);
+}
+potential ( EXPCO2_E | ARTCO2 VENTLUNG )
+{
+	data = (((	0.97	0.01	0.01	0.01	)
+		(	0.01	0.97	0.01	0.01	)
+		(	0.01	0.01	0.97	0.01	)
+		(	0.01	0.01	0.01	0.97	))
+		((	0.01	0.97	0.01	0.01	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.01	0.01	0.97	0.01	)
+		(	0.01	0.01	0.01	0.97	))
+		((	0.01	0.97	0.01	0.01	)
+		(	0.01	0.01	0.97	0.01	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.01	0.01	0.01	0.97	)));
+}
+potential ( INTUBATION | INTUBATION_0 PULMEMBOLUS_0 )
+{
+	data = (((	0.92	0.03	0.05	)
+		(	0.92	0.03	0.05	))
+		((	0.92	0.03	0.05	)
+		(	0.92	0.03	0.05	))
+		((	0.92	0.03	0.05	)
+		(	0.92	0.03	0.05	)));
+}
+potential ( INSUFFANESTH | INSUFFANESTH_0 )
+{
+	data = ((	0.8	0.2	)
+		(	0.3	0.7	));
+}
+potential ( HRSAT_E | ERRCAUTER HR )
+{
+	data = (((	0.33333333333333337	0.33333333333333337	0.33333333333333337	)
+		(	0.33333333333333337	0.33333333333333337	0.33333333333333337	)
+		(	0.01	0.98	0.01	))
+		((	0.33333333333333337	0.33333333333333337	0.33333333333333337	)
+		(	0.98	0.01	0.01	)
+		(	0.01	0.01	0.98	)));
+}
+potential ( PVSAT | FIO2 VENTALV )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.95	0.04	0.01	)
+		(	1.0	0.0	0.0	)
+		(	0.01	0.95	0.04	))
+		((	0.99	0.01	0.0	)
+		(	0.95	0.04	0.01	)
+		(	0.95	0.04	0.01	)
+		(	0.01	0.01	0.98	)));
+}
+potential ( CO | HR STROKEVOLUME )
+{
+	data = (((	0.98	0.01	0.01	)
+		(	0.95	0.04	0.01	)
+		(	0.3	0.69	0.01	))
+		((	0.95	0.04	0.01	)
+		(	0.04	0.95	0.01	)
+		(	0.01	0.3	0.69	))
+		((	0.8	0.19	0.01	)
+		(	0.01	0.04	0.95	)
+		(	0.01	0.01	0.98	)));
+}
+potential ( VENTALV | INTUBATION VENTLUNG )
+{
+	data = (((	0.97	0.01	0.01	0.01	)
+		(	0.01	0.01	0.01	0.97	)
+		(	0.01	0.01	0.97	0.01	)
+		(	0.03	0.95	0.01	0.01	))
+		((	0.01	0.97	0.01	0.01	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.01	0.01	0.01	0.97	)
+		(	0.01	0.94	0.04	0.01	))
+		((	0.01	0.01	0.97	0.01	)
+		(	0.01	0.97	0.01	0.01	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.01	0.88	0.1	0.01	)));
+}
+potential ( ERRLOWOUTPUT | )
+{
+	data = (	0.05	0.95	);
+}
+potential ( LVEDVOLUME | HYPOVOLEMIA LVFAILURE )
+{
+	data = (((	0.95	0.04	0.01	)
+		(	0.01	0.09	0.9	))
+		((	0.98	0.01	0.01	)
+		(	0.05	0.9	0.05	)));
+}
+potential ( FIO2 | FIO2_0 )
+{
+	data = ((	0.9	0.1	)
+		(	0.55	0.45	));
+}
+potential ( CATECHOL | ARTCO2 INSUFFANESTH SAO2 TPR )
+{
+	data = (((((	0.01	0.99	)
+		(	0.01	0.99	)
+		(	0.7	0.3	))
+		((	0.01	0.99	)
+		(	0.05	0.95	)
+		(	0.7	0.3	))
+		((	0.01	0.99	)
+		(	0.05	0.95	)
+		(	0.95	0.05	)))
+		(((	0.01	0.99	)
+		(	0.05	0.95	)
+		(	0.7	0.3	))
+		((	0.01	0.99	)
+		(	0.05	0.95	)
+		(	0.95	0.05	))
+		((	0.05	0.95	)
+		(	0.05	0.95	)
+		(	0.95	0.05	))))
+		((((	0.01	0.99	)
+		(	0.01	0.99	)
+		(	0.7	0.3	))
+		((	0.01	0.99	)
+		(	0.05	0.95	)
+		(	0.7	0.3	))
+		((	0.01	0.99	)
+		(	0.05	0.95	)
+		(	0.99	0.01	)))
+		(((	0.01	0.99	)
+		(	0.05	0.95	)
+		(	0.7	0.3	))
+		((	0.01	0.99	)
+		(	0.05	0.95	)
+		(	0.99	0.01	))
+		((	0.05	0.95	)
+		(	0.05	0.95	)
+		(	0.99	0.01	))))
+		((((	0.01	0.99	)
+		(	0.01	0.99	)
+		(	0.1	0.9	))
+		((	0.01	0.99	)
+		(	0.01	0.99	)
+		(	0.1	0.9	))
+		((	0.01	0.99	)
+		(	0.01	0.99	)
+		(	0.3	0.7	)))
+		(((	0.01	0.99	)
+		(	0.01	0.99	)
+		(	0.1	0.9	))
+		((	0.01	0.99	)
+		(	0.01	0.99	)
+		(	0.3	0.7	))
+		((	0.01	0.99	)
+		(	0.01	0.99	)
+		(	0.3	0.7	)))));
+}
+potential ( VENTMACH | MINVOLSET )
+{
+	data = ((	0.05	0.93	0.01	0.01	)
+		(	0.05	0.01	0.93	0.01	)
+		(	0.05	0.01	0.01	0.93	));
+}
+potential ( HYPOVOLEMIA_0 | )
+{
+	data = (	0.15000000000000002	0.8500000000000001	);
+}
+potential ( SHUNT | INTUBATION PULMEMBOLUS )
+{
+	data = (((	0.1	0.9	)
+		(	0.95	0.05	))
+		((	0.1	0.9	)
+		(	0.95	0.05	))
+		((	0.01	0.99	)
+		(	0.05	0.95	)));
+}
+potential ( DISCONNECT_0 | )
+{
+	data = (	0.1	0.9	);
+}
+potential ( PCWP_E | LVEDVOLUME )
+{
+	data = ((	0.95	0.04	0.01	)
+		(	0.04	0.95	0.01	)
+		(	0.01	0.04	0.95	));
+}
+potential ( PRESS_E | INTUBATION KINKEDTUBE VENTTUBE )
+{
+	data = ((((	0.97	0.01	0.01	0.01	)
+		(	0.05	0.25	0.25	0.45	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.2	0.75	0.04	0.01	))
+		((	0.01	0.01	0.01	0.97	)
+		(	0.01	0.29	0.3	0.4	)
+		(	0.01	0.01	0.01	0.97	)
+		(	0.01	0.9	0.08	0.01	)))
+		(((	0.01	0.3	0.49	0.2	)
+		(	0.01	0.15	0.25	0.59	)
+		(	0.01	0.97	0.01	0.01	)
+		(	0.20000000000000004	0.7000000000000001	0.09000000000000001	0.010000000000000002	))
+		((	0.97	0.01	0.01	0.01	)
+		(	0.01	0.01	0.08	0.9	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.01	0.01	0.38	0.6	)))
+		(((	0.01	0.01	0.08	0.9	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.01	0.01	0.97	0.01	)
+		(	0.97	0.01	0.01	0.01	))
+		((	0.1	0.84	0.05	0.01	)
+		(	0.01	0.01	0.01	0.97	)
+		(	0.4	0.58	0.01	0.01	)
+		(	0.01	0.01	0.01	0.97	))));
+}
+potential ( MINVOL_E | INTUBATION VENTLUNG )
+{
+	data = (((	0.97	0.01	0.01	0.01	)
+		(	0.01	0.01	0.01	0.97	)
+		(	0.5	0.48	0.01	0.01	)
+		(	0.01	0.97	0.01	0.01	))
+		((	0.01	0.97	0.01	0.01	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.5	0.48	0.01	0.01	)
+		(	0.01	0.01	0.97	0.01	))
+		((	0.01	0.01	0.97	0.01	)
+		(	0.6	0.38	0.01	0.01	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.01	0.01	0.01	0.97	)));
+}
+potential ( ERRCAUTER | ERRCAUTER_0 )
+{
+	data = ((	0.6	0.4	)
+		(	0.42	0.58	));
+}
+potential ( VENTTUBE | DISCONNECT VENTMACH )
+{
+	data = (((	0.97	0.01	0.01	0.01	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.01	0.01	0.97	0.01	))
+		((	0.97	0.01	0.01	0.01	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.01	0.97	0.01	0.01	)
+		(	0.01	0.01	0.01	0.97	)));
+}
+potential ( CVP_E | LVEDVOLUME )
+{
+	data = ((	0.95	0.04	0.01	)
+		(	0.04	0.95	0.01	)
+		(	0.01	0.29	0.7	));
+}
+potential ( INSUFFANESTH_0 | )
+{
+	data = (	0.1	0.9	);
+}
+potential ( ANAPHYLAXIS_0 | )
+{
+	data = (	0.01	0.99	);
+}
+potential ( TPR | ANAPHYLAXIS )
+{
+	data = ((	0.98	0.01	0.01	)
+		(	0.3	0.4	0.3	));
+}
+potential ( LVFAILURE_0 | )
+{
+	data = (	0.05	0.95	);
+}
+potential ( MINVOLSET | MINVOLSET_0 )
+{
+	data = ((	0.05	0.9	0.05	)
+		(	0.05	0.9	0.05	)
+		(	0.05	0.9	0.05	));
+}
+potential ( KINKEDTUBE | )
+{
+	data = (	0.04	0.96	);
+}
+potential ( ANAPHYLAXIS | ANAPHYLAXIS_0 LVFAILURE_0 )
+{
+	data = (((	0.7	0.3	)
+		(	0.6	0.4	))
+		((	0.45	0.55	)
+		(	0.3	0.7	)));
+}
+potential ( INTUBATION_0 | )
+{
+	data = (	0.92	0.03	0.05	);
+}
+potential ( MINVOLSET_0 | )
+{
+	data = (	0.05	0.9	0.05	);
+}
+potential ( BP_E | CO TPR )
+{
+	data = (((	0.98	0.01	0.01	)
+		(	0.98	0.01	0.01	)
+		(	0.30000000000000004	0.6000000000000001	0.1	))
+		((	0.98	0.01	0.01	)
+		(	0.1	0.85	0.05	)
+		(	0.05	0.4	0.55	))
+		((	0.9	0.09	0.01	)
+		(	0.05	0.2	0.75	)
+		(	0.01	0.09	0.9	)));
+}
+potential ( VENTLUNG | INTUBATION KINKEDTUBE VENTTUBE )
+{
+	data = ((((	0.97	0.01	0.01	0.01	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.97	0.01	0.01	0.01	))
+		((	0.3	0.68	0.01	0.01	)
+		(	0.95	0.03	0.01	0.01	)
+		(	0.01	0.01	0.01	0.97	)
+		(	0.01	0.97	0.01	0.01	)))
+		(((	0.95	0.03	0.01	0.01	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.01	0.97	0.01	0.01	)
+		(	0.97	0.01	0.01	0.01	))
+		((	0.97	0.01	0.01	0.01	)
+		(	0.5	0.48	0.01	0.01	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.01	0.01	0.97	0.01	)))
+		(((	0.4	0.58	0.01	0.01	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.01	0.01	0.97	0.01	)
+		(	0.97	0.01	0.01	0.01	))
+		((	0.97	0.01	0.01	0.01	)
+		(	0.3	0.68	0.01	0.01	)
+		(	0.97	0.01	0.01	0.01	)
+		(	0.01	0.01	0.01	0.97	))));
+}
+potential ( DISCONNECT | DISCONNECT_0 MINVOLSET_0 )
+{
+	data = (((	0.6	0.4	)
+		(	0.8	0.2	)
+		(	0.4	0.6	))
+		((	0.3	0.7	)
+		(	0.4	0.6	)
+		(	0.8	0.2	)));
+}
+potential ( ERRCAUTER_0 | )
+{
+	data = (	0.1	0.9	);
+}
+potential ( HR | CATECHOL )
+{
+	data = ((	0.05	0.9	0.05	)
+		(	0.01	0.09	0.9	));
+}

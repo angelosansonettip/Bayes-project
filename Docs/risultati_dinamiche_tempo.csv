@@ -1,0 +1,8 @@
+;ReverseEliminationAsk;MinDegreeEliminationAsk;MinFillEliminationAsk
+Rete alarm.xml con nodi 49 e con fattore massimo = 5;12521;9321;14273
+Rete asia.xml con nodi 10 e con fattore massimo = 3;9;6;7
+Rete child.xml con nodi 24 e con fattore massimo = 3;510;395;240
+Rete earthquake.xml con nodi 7 e con fattore massimo = 3;2;2;2
+Rete insurance.xml con nodi 29 e con fattore massimo = 4;29514;1669;23689
+Rete sachs.xml con nodi 13 e con fattore massimo = 4;7;7;8
+Rete water.xml con nodi 38 e con fattore massimo = 7;22906;59372;47342
